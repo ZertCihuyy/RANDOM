@@ -1,3 +1,4 @@
+<img src="https://cdn.myanimelist.net/images/anime/1979/153329.jpg" />
 ## 🎬 OSHI NO KO
 
 **Season 3 — Episode 01**
