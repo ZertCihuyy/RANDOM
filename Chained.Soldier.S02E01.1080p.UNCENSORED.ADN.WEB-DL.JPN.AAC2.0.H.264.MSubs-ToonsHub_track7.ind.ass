@@ -1,0 +1,433 @@
+﻿[Script Info]
+; Edited by ToonsHub
+Title: Bilibili Subtitle
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans,80,&H00FFFFFF,&H000000FF,&H00002208,&H80000000,-1,0,0,0,100,100,0,0,1,4,1.5,2,0,0,32,1
+Style: Default Above,Noto Sans,80,&H00FFFFFF,&H000000FF,&H00002208,&H80000000,-1,0,0,0,100,100,0,0,1,4,1.5,8,0,0,32,1
+Style: 5-normal,Noto Sans,52,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.6,0,5,10,10,5,1
+Style: 6-normal,Noto Sans,52,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.6,0,6,10,10,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:31.35,0:00:33.85,5-normal,,0,0,0,,{\fs68\bord0\b1\pos(435,169)}Episode 01
+Dialogue: 0,0:00:31.35,0:00:33.85,5-normal,,0,0,0,,{\fs80\bord3\b1\c&H000000&\pos(960,703.334)\3c&HFFFFFF&}Rapat Ketua
+Dialogue: 0,0:00:33.85,0:00:36.11,5-normal,,0,0,0,,{\fs64\bord3\b1\c&H000000&\3c&HC4C4C4&\pos(1370,741.067)}Asrama Skuad Tujuh Korps Defensi Iblis
+Dialogue: 0,0:00:36.11,0:00:37.23,5-normal,,0,0,0,,{\fs68\fad(0,500)\bord0\b1\c&H242E48&\3c&H73A6C7&\pos(384.8,347.067)}Nei
+Dialogue: 0,0:00:36.11,0:00:37.23,5-normal,,0,0,0,,{\fs68\fad(0,500)\bord0\b1\c&H1D223A&\3c&H73A6C7&\pos(785.333,150)}Shushu
+Dialogue: 0,0:00:36.11,0:00:37.23,5-normal,,0,0,0,,{\fs68\fad(0,500)\bord0\b1\c&H192038&\3c&H73A6C7&\pos(1195,150)}Himari
+Dialogue: 0,0:00:36.11,0:00:37.23,5-normal,,0,0,0,,{\fs68\fad(0,500)\bord0\b1\c&H242B45&\3c&H73A6C7&\pos(1598,150)}Kyouka
+Dialogue: 0,0:00:39.07,0:00:41.07,5-normal,,0,0,0,,{\fs68\bord0\b1\c&H1F243A&\3c&H73A6C7&\pos(517.778,150.222)}Yuuki
+Dialogue: 0,0:00:42.57,0:00:44.78,5-normal,,0,0,0,,{\fs56\fad(400,0)\bord3\b1\c&H000000&\3c&HF5F5F4&\pos(372.667,595)}Pembantu Skuad Tujuh:
+Dialogue: 0,0:00:42.57,0:00:44.78,5-normal,,0,0,0,,{\fs56\fad(400,0)\bord3\b1\c&H000000&\3c&HF5F5F4&\pos(372.667,655)\fs85}Wakura Yuuki
+Dialogue: 0,0:00:50.54,0:00:53.71,5-normal,,0,0,0,,{\fs56\bord3\fad(150,210)\b1\c&H010004&\3c&HEDE8F0&\pos(1548,595)}Wakil Ketua Skuad Tujuh:
+Dialogue: 0,0:00:50.54,0:00:53.71,5-normal,,0,0,0,,{\fs56\bord3\fad(150,210)\b1\c&H010004&\3c&HEDE8F0&\pos(1548,655)\fs85}Azuma Himari
+Dialogue: 0,0:01:13.23,0:01:15.81,5-normal,,0,0,0,,{\fs56\bord3\fad(300,0)\b1\c&H000000&\3c&HEDE8F0&\pos(1550,595)}Skuad Tujuh:
+Dialogue: 0,0:01:13.23,0:01:15.81,5-normal,,0,0,0,,{\bord3\fad(300,0)\b1\c&H000000&\3c&HEDE8F0&\pos(1550,655)\fs68}Ookawamura Nei
+Dialogue: 0,0:01:23.45,0:01:26.41,5-normal,,0,0,0,,{\fs56\bord3\fad(0,300)\b1\c&H010004&\3c&HEFF2F8&\pos(370,595)}Skuad Tujuh:
+Dialogue: 0,0:01:23.45,0:01:26.41,5-normal,,0,0,0,,{\fs56\bord3\fad(0,300)\b1\c&H010004&\3c&HEFF2F8&\pos(370,655)\fs85}Suruga Shushu
+Dialogue: 0,0:02:31.60,0:02:35.56,5-normal,,0,0,0,,{\fs56\bord3\fad(400,900)\b1\c&H010004&\3c&HCBC8D6&\pos(1500,595)}Ketua Skuad Tujuh:
+Dialogue: 0,0:02:31.60,0:02:35.56,5-normal,,0,0,0,,{\fs56\bord3\fad(400,900)\b1\c&H010004&\3c&HCBC8D6&\pos(1500,655)\fs85}Uzen Kyouka
+Dialogue: 0,0:03:45.75,0:03:47.59,5-normal,,0,0,0,,{\frz32.8\fs56\bord3\b1\c&H322332&\3c&HE8ECF4&\fad(450,0)\pos(809.556,159.667)}Tokoyama Saki
+Dialogue: 0,0:05:10.09,0:05:12.59,5-normal,,0,0,0,,{\fs56\fad(300,240)\bord3\b1\c&H000000&\3c&HCBC8D6&\pos(375,595)}Wakil Ketua Skuad Enam:
+Dialogue: 0,0:05:10.09,0:05:12.59,5-normal,,0,0,0,,{\fs56\fad(300,240)\bord3\b1\c&H000000&\3c&HCBC8D6&\pos(375,655)\fs85}Azuma Yachiho
+Dialogue: 0,0:05:24.81,0:05:26.56,5-normal,,0,0,0,,{\fs56\bord3\fad(210,0)\b1\c&H010004&\3c&HEBF0FD&\pos(1510,605)}Skuad Enam:
+Dialogue: 0,0:05:24.81,0:05:26.56,5-normal,,0,0,0,,{\fs56\bord3\fad(210,0)\b1\c&H010004&\3c&HEBF0FD&\pos(1510,665)\fs85}Wakasa Sahara
+Dialogue: 0,0:05:34.15,0:05:36.07,5-normal,,0,0,0,,{\fs56\fad(400,450)\bord3\b1\c&H000000&\3c&HCBC8D6&\pos(400,595)}Ketua Skuad Enam:
+Dialogue: 0,0:05:34.15,0:05:36.07,5-normal,,0,0,0,,{\fs56\fad(400,450)\bord3\b1\c&H000000&\3c&HCBC8D6&\pos(400,655)\fs85}Izumo Tenka
+Dialogue: 0,0:07:26.48,0:07:29.98,5-normal,,0,0,0,,{\frz8.417\fax-0.2\fs80\b1\bord3\c&H1D03FF&\3c&HF5F5F5&\fad(210,895)\pos(1040.2,112.2)}\h\h\hBudak Korps Elite\h\h\h
+Dialogue: 0,0:07:26.48,0:07:29.98,5-normal,,0,0,0,,{\frz8.417\fax-0.2\fs60\b1\bord3\c&H0E0B09&\3c&HF5F5F5&\fad(210,895)\pos(1040.2,186.2)}\h\h\hKota Iblis Musim Kedua\h\h\h
+Dialogue: 0,0:10:31.45,0:10:35.91,5-normal,,0,0,0,,{\fs56\bord3\fad(450,0)\b1\c&H010004&\3c&HEBE7EC&\pos(1368.8,595)}Jurik Berbentuk Manusia:
+Dialogue: 0,0:10:31.45,0:10:35.91,5-normal,,0,0,0,,{\fs56\bord3\fad(450,0)\b1\c&H010004&\3c&HEBE7EC&\pos(1368.8,655)\fs85}Wakura Aoba {\fs56}(Kakak Kandung Yuuki)
+Dialogue: 0,0:11:20.33,0:11:23.80,6-normal,,0,0,0,,{\fs68\bord3\fad(450,0)\b1\c&H010004&\3c&HEFEEF1&\pos(1515.6,147.067)}Markas Pusat Korps Defensi Iblis\N{\fs70}(Markas Skuad Sepuluh)
+Dialogue: 0,0:11:45.90,0:11:48.03,5-normal,,0,0,0,,{\fs60\bord3\fad(450,0)\b1\c&H010004&\3c&HE9EDF4&\pos(1488.8,595)}Ketua Skuad Dua:
+Dialogue: 0,0:11:45.90,0:11:48.03,5-normal,,0,0,0,,{\fs60\bord3\fad(450,0)\b1\c&H010004&\3c&HE9EDF4&\pos(1488.8,655)\fs90}Kamiunten Mira
+Dialogue: 0,0:12:40.58,0:12:42.83,5-normal,,0,0,0,,{\fs56\bord3\fad(450,0)\b1\c&H000000&\3c&HDAD0E6&\pos(392,625)}Ketua Skuad Tiga:
+Dialogue: 0,0:12:40.58,0:12:42.83,5-normal,,0,0,0,,{\bord3\fad(450,0)\b1\c&H000000&\3c&HDAD0E6&\pos(392,685)\fs68}Tsukiyono Bell
+Dialogue: 0,0:12:54.30,0:12:58.31,5-normal,,0,0,0,,{\fs60\bord3\b1\c&H090707&\3c&HFFFFFF&\frz10\pos(952.444,330.889)}Karena dia
+Dialogue: 0,0:12:54.55,0:12:58.31,5-normal,,0,0,0,,{\fs64\bord3\b1\c&H000000&\3c&HE8E8E8&\pos(666.857,890)}Gambar buatan Nei
+Dialogue: 0,0:13:13.82,0:13:16.03,5-normal,,0,0,0,,{\fs56\bord3\fad(150,0)\b1\c&H010004&\3c&HF2F6FF&\pos(1495.733,414.8)}Ketua Skuad Satu:
+Dialogue: 0,0:13:13.82,0:13:16.03,5-normal,,0,0,0,,{\bord3\fad(150,0)\b1\c&H010004&\3c&HF2F6FF&\fs68\pos(1495.733,474.8)}Tatara Konomi
+Dialogue: 0,0:13:14.32,0:13:16.03,5-normal,,0,0,0,,{\fs56\bord3\fad(150,0)\b1\c&H010004&\3c&HE3E3E3&\pos(382.571,603)}Ketua Skuad Lima:
+Dialogue: 0,0:13:14.32,0:13:16.03,5-normal,,0,0,0,,{\fs56\bord3\fad(150,0)\b1\c&H010004&\3c&HE3E3E3&\pos(382.571,663)\fs85}Ezo Yakumo
+Dialogue: 0,0:13:16.78,0:13:19.04,5-normal,,0,0,0,,{\fs56\fad(210,0)\bord3\b1\c&H000000&\3c&HF6FCF1&\pos(1580,625)}Ketua Skuad Sembilan:
+Dialogue: 0,0:13:16.78,0:13:19.04,5-normal,,0,0,0,,{\fad(210,0)\bord3\b1\c&H000000&\3c&HF6FCF1&\pos(1580,685)\fs68}Azuma Fubuki
+Dialogue: 0,0:13:17.28,0:13:19.04,5-normal,,0,0,0,,{\fs56\fad(210,0)\bord3\b1\c&H010004&\3c&HFAFAFA&\pos(430,625)}Ketua Skuad Delapan:
+Dialogue: 0,0:13:17.28,0:13:19.04,5-normal,,0,0,0,,{\fs56\fad(210,0)\bord3\b1\c&H010004&\3c&HFAFAFA&\pos(430,685)\fs85}Waruwala Piripenko
+Dialogue: 0,0:13:32.67,0:13:35.26,5-normal,,0,0,0,,{\fs60\fad(150,0)\bord3\b1\c&H000000&\3c&HFFFFFF&\pos(1645,978.667)}Komandan\N(Ketua Skuad Sepuluh)
+Dialogue: 0,0:13:32.67,0:13:35.26,5-normal,,0,0,0,,{\fs72\fad(150,0)\bord3\b1\c&H000000&\3c&HFFFFFF&\pos(292,128.821)}Yamashiro Ren
+Dialogue: 0,0:13:55.91,0:13:57.28,5-normal,,0,0,0,,{\fs80\fax-0.1\bord0\b1\c&HFFFFFF&\frz8.2\pos(1365,453.524)}\h\h\hBudak Korps Elite\h\h\h
+Dialogue: 0,0:13:55.91,0:13:57.28,5-normal,,0,0,0,,{\fs60\fax-0.1\bord0\b1\c&HFFFFFF&\frz8.2\pos(1365,523.524)}\h\h\hKota Iblis Musim Kedua\h\h\h
+Dialogue: 0,0:14:02.91,0:14:05.42,5-normal,,0,0,0,,{\fs60\bord3\fad(0,240)\b1\c&H000000&\3c&HE1C6E7&\pos(1545,425)}Wakil Ketua Skuad Satu:
+Dialogue: 0,0:14:02.91,0:14:05.42,5-normal,,0,0,0,,{\bord3\fad(0,240)\b1\c&H000000&\3c&HE1C6E7&\pos(1545,495)\fs72}Myouga Riu
+Dialogue: 0,0:18:59.00,0:19:00.25,5-normal,,0,0,0,,{\fs56\b1\bord0\c&HE7ECE3&\3c&HBEBEBE&\pos(333,274)}Target:\NMarkas Korps Defensi Iblis
+Dialogue: 0,0:18:59.00,0:19:00.25,5-normal,,0,0,0,,{\pos(1668,768)\fs64\b1\bord0\c&HCBE4DD&\3c&HB5B5B5&}Tipe Musuh:\NJurik
+Dialogue: 0,0:23:25.18,0:23:29.19,5-normal,,0,0,0,,{\fs80\bord2.5\fad(450,550)\b1\c&HFAFAFA&\3c&H191F3E&\pos(960,100)}Episode 02: Bayangan Ren
+Dialogue: 0,0:23:38.95,0:23:39.95,5-normal,,0,0,0,,{\pos(440,657)\frz8.417\fax-0.2\fs80\b1\bord0}\h\h\hBudak Korps Elite\h\h\h
+Dialogue: 0,0:23:38.95,0:23:39.95,5-normal,,0,0,0,,{\pos(440,727)\frz8.417\fax-0.2\fs60\b1\bord0}\h\h\hKota Iblis Musim Kedua\h\h\h
+Dialogue: 0,0:23:38.95,0:23:39.95,6-normal,,0,0,0,,{\pos(1824,873)\fs64\b1\bord0\c&HFFFFFF&}Ikuti aku, anjing kecil
+Dialogue: 0,0:05:29.45,0:05:32.53,Default,,0,0,0,,Ketua!
+Dialogue: 0,0:00:03.55,0:00:05.58,Default,,0,0,0,,Korps Defensi Iblis ke Skuad Enam.
+Dialogue: 0,0:00:05.58,0:00:09.21,Default,,0,0,0,,Dari titik 682, muncul Gerbang di Sapporo.
+Dialogue: 0,0:00:09.21,0:00:12.38,Default,,0,0,0,,Beberapa warga sipil telah menghilang!
+Dialogue: 0,0:00:12.78,0:00:14.46,Default,,0,0,0,,Skuad Enam, dimengerti.
+Dialogue: 0,0:00:14.82,0:00:16.84,Default,,0,0,0,,Memulai penyelidikan di Kota Iblis.
+Dialogue: 0,0:00:16.84,0:00:18.76,Default,,0,0,0,,Markas Pusat, dimengerti.
+Dialogue: 0,0:00:18.76,0:00:20.55,Default,,0,0,0,,Jumlah Jurik makin bertambah.
+Dialogue: 0,0:00:20.55,0:00:22.06,Default,,0,0,0,,Harap berhati-hati!
+Dialogue: 0,0:00:40.07,0:00:41.08,Default,,0,0,0,,Oke.
+Dialogue: 0,0:00:41.53,0:00:43.91,Default Above,,0,0,0,,Hari ini juga harus semangat!
+Dialogue: 0,0:00:50.54,0:00:53.71,Default Above,,0,0,0,,Yuuki, tolong cuciannya.
+Dialogue: 0,0:00:56.72,0:00:57.88,Default,,0,0,0,,Terus, buat sarapan.
+Dialogue: 0,0:00:58.84,0:01:00.80,Default,,0,0,0,,Pagi ini aku ingin ramen asin!
+Dialogue: 0,0:01:08.31,0:01:09.56,Default,,0,0,0,,Yuuki!
+Dialogue: 0,0:01:10.08,0:01:11.81,Default,,0,0,0,,Ada apa, Nei?
+Dialogue: 0,0:01:12.40,0:01:15.82,Default Above,,0,0,0,,Bisa bantu aku mengecek persediaan?
+Dialogue: 0,0:01:16.28,0:01:18.40,Default,,0,0,0,,Kecap asinnya tinggal dua botol.
+Dialogue: 0,0:01:18.82,0:01:21.32,Default,,0,0,0,,Kecap asin, dua botol.
+Dialogue: 0,0:01:21.32,0:01:22.83,Default,,0,0,0,,Yuuki!
+Dialogue: 0,0:01:24.08,0:01:26.41,Default Above,,0,0,0,,Pijatin, dong!
+Dialogue: 0,0:01:26.41,0:01:28.08,Default,,0,0,0,,Oke!
+Dialogue: 0,0:01:30.08,0:01:33.92,Default,,0,0,0,,Yuuki, pijatanmu nikmat sekali!
+Dialogue: 0,0:01:33.92,0:01:37.92,Default,,0,0,0,,Shushu, kenapa malah membesarkan tubuhmu?
+Dialogue: 0,0:01:37.92,0:01:39.43,Default,,0,0,0,,Soalnya...
+Dialogue: 0,0:01:40.30,0:01:44.39,Default,,0,0,0,,Kalau begini lebih gampang kena uratnya.
+Dialogue: 0,0:01:44.93,0:01:49.35,Default,,0,0,0,,Yuuki!\NDalaman Shushu tercampur ke punyaku!
+Dialogue: 0,0:01:49.35,0:01:51.77,Default,,0,0,0,,Eh? Maaf, Himari!
+Dialogue: 0,0:01:51.77,0:01:55.48,Default,,0,0,0,,Dasar, Yuuki.\NCek dulu yang benar, dong.
+Dialogue: 0,0:01:55.48,0:01:59.44,Default,,0,0,0,,Bukan begitu!\NMana bisa aku membedakan semuanya...
+Dialogue: 0,0:01:59.44,0:02:01.32,Default,,0,0,0,,Maaf, Yuuki.
+Dialogue: 0,0:02:01.32,0:02:04.95,Default,,0,0,0,,PR, ya?\NAda yang enggak kamu mengerti?
+Dialogue: 0,0:02:04.95,0:02:08.70,Default,,0,0,0,,- Iya, tapi kamu lagi sibuk, ya?\N- Nah, di situ! Nikmat!
+Dialogue: 0,0:02:08.70,0:02:12.25,Default,,0,0,0,,Enggak, kok.\NBisa tunggu sebentar?
+Dialogue: 0,0:02:13.50,0:02:15.24,Default,,0,0,0,,Wakura Yuuki.
+Dialogue: 0,0:02:16.46,0:02:20.90,Default,,0,0,0,,Pria yang masuk ke Korps Defensi Iblis\Nyang hanya beranggotakan perempuan.
+Dialogue: 0,0:02:22.68,0:02:24.05,Default,,0,0,0,,Oke!
+Dialogue: 0,0:02:24.72,0:02:26.92,Default,,0,0,0,,Kyouka, maaf membuatmu menunggu!
+Dialogue: 0,0:02:27.31,0:02:28.25,Default,,0,0,0,,Tidak.
+Dialogue: 0,0:02:29.56,0:02:30.86,Default,,0,0,0,,Bukan masalah.
+Dialogue: 0,0:02:31.60,0:02:34.01,Default Above,,0,0,0,,Di sini ada Jurik, jadi kubuat mereka takluk.
+Dialogue: 0,0:02:34.99,0:02:39.15,Default Above,,0,0,0,,Kesayangan Ketua Skuad 7, Uzen Kyouka.
+Dialogue: 0,0:02:40.28,0:02:42.15,Default,,0,0,0,,Ayo segera mulai latihan kita!
+Dialogue: 0,0:02:42.15,0:02:43.07,Default,,0,0,0,,Baik!
+Dialogue: 0,0:02:45.12,0:02:46.62,Default,,0,0,0,,Panggilan darurat?
+Dialogue: 0,0:02:47.49,0:02:49.83,Default,,0,0,0,,Ketua, telah terjadi Bencana Kota Iblis!
+Dialogue: 0,0:02:50.19,0:02:53.00,Default,,0,0,0,,Delapan warga sipil terdampar di Kota Iblis!
+Dialogue: 0,0:02:53.00,0:02:54.54,Default,,0,0,0,,Enam orang telah diamankan.
+Dialogue: 0,0:02:54.54,0:02:56.75,Default,,0,0,0,,Dua orang sisanya masih dalam pencarian.
+Dialogue: 0,0:02:56.75,0:02:59.42,Default,,0,0,0,,Markas pusat meminta bantuan!
+Dialogue: 0,0:02:59.42,0:03:01.63,Default,,0,0,0,,Nei, bisa cari dengan kekuatanmu?
+Dialogue: 0,0:03:01.63,0:03:02.67,Default,,0,0,0,,Baik!
+Dialogue: 0,0:03:03.22,0:03:04.47,Default,,0,0,0,,Promise.
+Dialogue: 0,0:03:06.18,0:03:08.72,Default,,0,0,0,,Aku mendeteksi reaksi kehidupan.
+Dialogue: 0,0:03:10.31,0:03:13.02,Default,,0,0,0,,Dipastikan telah muncul\Nsarang Jurik di sekitar.
+Dialogue: 0,0:03:14.06,0:03:14.77,Default,,0,0,0,,Kyouka!
+Dialogue: 0,0:03:14.77,0:03:17.11,Default,,0,0,0,,Sampaikan titik itu ke Skuad Enam!
+Dialogue: 0,0:03:17.11,0:03:18.73,Default,,0,0,0,,Skuad Tujuh, kita berangkat!
+Dialogue: 0,0:03:18.73,0:03:19.48,Default,,0,0,0,,- Baik!\N- Baik!
+Dialogue: 0,0:03:19.48,0:03:21.24,Default,,0,0,0,,Kamu sanggup, kan, Yuuki?
+Dialogue: 0,0:03:21.24,0:03:22.74,Default,,0,0,0,,Tentu saja!
+Dialogue: 0,0:03:24.99,0:03:26.28,Default,,0,0,0,,Slave!
+Dialogue: 0,0:03:34.00,0:03:35.42,Default,,0,0,0,,Mbak!
+Dialogue: 0,0:03:44.17,0:03:44.97,Default,,0,0,0,,Himari!
+Dialogue: 0,0:03:44.97,0:03:45.76,Default,,0,0,0,,Iya!
+Dialogue: 0,0:03:46.59,0:03:47.59,Default,,0,0,0,,Learning!
+Dialogue: 0,0:03:48.01,0:03:49.35,Default,,0,0,0,,Bang Bang Bang!
+Dialogue: 0,0:03:54.10,0:03:56.73,Default,,0,0,0,,Kami dari Korps Defensi Iblis.\NKalian sudah aman.
+Dialogue: 0,0:03:57.65,0:03:58.48,Default,,0,0,0,,Shushu!
+Dialogue: 0,0:03:58.48,0:03:59.65,Default,,0,0,0,,Oke!
+Dialogue: 0,0:04:00.15,0:04:02.28,Default,,0,0,0,,Paradigm Shift!
+Dialogue: 0,0:04:09.32,0:04:10.45,Default,,0,0,0,,Cepat naik!
+Dialogue: 0,0:04:10.95,0:04:11.87,Default,,0,0,0,,Baik!
+Dialogue: 0,0:04:15.25,0:04:16.75,Default,,0,0,0,,Dua ekor, ya.
+Dialogue: 0,0:04:17.62,0:04:19.79,Default,,0,0,0,,Boleh saja, maju sini!
+Dialogue: 0,0:04:26.63,0:04:27.72,Default,,0,0,0,,Awas!
+Dialogue: 0,0:04:30.80,0:04:32.26,Default,,0,0,0,,Yuuki!
+Dialogue: 0,0:04:34.81,0:04:36.02,Default,,0,0,0,,Kyouka!
+Dialogue: 0,0:04:36.56,0:04:39.48,Default,,0,0,0,,Tebasan Anggara Gunung Sakura!
+Dialogue: 0,0:04:47.11,0:04:48.78,Default,,0,0,0,,Ketua memang hebat!
+Dialogue: 0,0:04:48.78,0:04:50.82,Default,,0,0,0,,Terima kasih, Yuuki!
+Dialogue: 0,0:04:52.24,0:04:53.79,Default,,0,0,0,,Harap berhati-hati!
+Dialogue: 0,0:04:54.50,0:04:56.66,Default,,0,0,0,,Ada reaksi kuat dari dekat sini.
+Dialogue: 0,0:04:57.08,0:04:58.37,Default,,0,0,0,,Itu tipe khusus!
+Dialogue: 0,0:04:59.92,0:05:02.25,Default,,0,0,0,,Golden Hour!
+Dialogue: 0,0:05:02.63,0:05:04.13,Default,,0,0,0,,Ya, ampun.
+Dialogue: 0,0:05:04.13,0:05:07.93,Default,,0,0,0,,Memang repot kalau\Npunya adik yang tidak becus.
+Dialogue: 0,0:05:08.51,0:05:10.47,Default Above,,0,0,0,,Betul, Himari?
+Dialogue: 0,0:05:10.47,0:05:11.64,Default Above,,0,0,0,,Yachiho!
+Dialogue: 0,0:05:15.52,0:05:18.27,Default,,0,0,0,,Ketua Skuad Uzen,\Nterima kasih bantuannya!
+Dialogue: 0,0:05:18.27,0:05:21.20,Default,,0,0,0,,Mulai dari sini, biar Skuad Enam yang urus!
+Dialogue: 0,0:05:22.06,0:05:25.42,Default Above,,0,0,0,,Crazy Sheep: Tiga!
+Dialogue: 0,0:05:34.16,0:05:36.04,Default Above,,0,0,0,,Kerja bagus, Sahara.
+Dialogue: 0,0:05:38.16,0:05:39.25,Default,,0,0,0,,Hayat Burung Kayangan.
+Dialogue: 0,0:05:42.75,0:05:44.76,Default,,0,0,0,,Tenka memang hebat.
+Dialogue: 0,0:05:52.39,0:05:53.47,Default,,0,0,0,,Yuuki!
+Dialogue: 0,0:05:53.47,0:05:54.51,Default,,0,0,0,,Aku juga...
+Dialogue: 0,0:05:55.35,0:05:58.18,Default,,0,0,0,,Demi bisa menyelamatkan mbakku...
+Dialogue: 0,0:05:58.89,0:06:00.69,Default,,0,0,0,,Tolong izinkan aku yang maju!
+Dialogue: 0,0:06:01.16,0:06:03.27,Default,,0,0,0,,Aku harus bertambah kuat!
+Dialogue: 0,0:06:04.19,0:06:07.07,Default,,0,0,0,,Kalau begitu,\Ntunjukkan hasil latihanmu, Yuuki!
+Dialogue: 0,0:06:07.07,0:06:07.86,Default,,0,0,0,,Baik!
+Dialogue: 0,0:06:31.80,0:06:33.01,Default,,0,0,0,,Ini...
+Dialogue: 0,0:06:39.47,0:06:41.52,Default,,0,0,0,,Waktunya tunduk!
+Dialogue: 0,0:06:55.37,0:06:58.16,Default,,0,0,0,,Yuuki memang menawan.
+Dialogue: 0,0:06:58.16,0:07:00.73,Default,,0,0,0,,Aku jadi makin menyukainya.
+Dialogue: 0,0:07:05.74,0:07:09.80,Default,,0,0,0,,Jadi ini Slave yang dirumorkan itu.
+Dialogue: 0,0:08:42.81,0:08:46.69,Default,,0,0,0,,Warga sipil yang diamankan\Nsudah dikembalikan ke dunia nyata.
+Dialogue: 0,0:08:47.14,0:08:50.19,Default,,0,0,0,,Sepertinya tidak ada luka atau efek\Nyang perlu dikhawatirkan.
+Dialogue: 0,0:08:50.19,0:08:52.44,Default,,0,0,0,,Syukurlah.
+Dialogue: 0,0:08:53.15,0:08:55.61,Default,,0,0,0,,Iya, kamu juga sudah bekerja keras.
+Dialogue: 0,0:08:55.61,0:08:59.66,Default,,0,0,0,,Tapi, kenapa kamu selalu\Nmeminta hadiah seperti ini?
+Dialogue: 0,0:08:59.66,0:09:01.70,Default,,0,0,0,,Bukan berarti aku menginginkannya...
+Dialogue: 0,0:09:01.70,0:09:06.83,Default,,0,0,0,,Saat membuat Jurik jadi budak,\Nsudah cukup diberi daging babi.
+Dialogue: 0,0:09:10.25,0:09:14.13,Default,,0,0,0,,Tapi, sejak menjadikanmu budak,\Nselalu saja seperti ini.
+Dialogue: 0,0:09:14.13,0:09:15.09,Default,,0,0,0,,Dasar cabul.
+Dialogue: 0,0:09:15.09,0:09:17.09,Default,,0,0,0,,Ma-Maaf!
+Dialogue: 0,0:09:17.09,0:09:20.55,Default,,0,0,0,,Tapi, memang benar kalau\Nada banyak yang didapat.
+Dialogue: 0,0:09:20.97,0:09:26.39,Default,,0,0,0,,Slave milikku sepertinya bukanlah kemampuan\Nyang hanya mengubah target jadi budak.
+Dialogue: 0,0:09:26.39,0:09:30.23,Default,,0,0,0,,Kalau kamu makin kuat,\Njangkauan tempur kita pun makin luas.
+Dialogue: 0,0:09:30.23,0:09:32.31,Default,,0,0,0,,Kukira pilihan yang salah,
+Dialogue: 0,0:09:32.31,0:09:35.19,Default,,0,0,0,,tapi kalau bersamamu,\Naku mungkin bisa meraih posisi komandan.
+Dialogue: 0,0:09:35.86,0:09:38.53,Default,,0,0,0,,Kalau kamu menjadi komandan...
+Dialogue: 0,0:09:38.53,0:09:40.07,Default,,0,0,0,,Benar.
+Dialogue: 0,0:09:40.57,0:09:43.49,Default,,0,0,0,,Kita bisa mengubah struktur\NKorps Defensi Iblis.
+Dialogue: 0,0:09:43.49,0:09:45.83,Default,,0,0,0,,Juga membongkar kegelapan Instansi Yin-Yang.
+Dialogue: 0,0:09:45.83,0:09:47.79,Default,,0,0,0,,Dengan begitu, mbakku akan...
+Dialogue: 0,0:09:47.79,0:09:48.75,Default,,0,0,0,,Iya.
+Dialogue: 0,0:09:48.75,0:09:52.79,Default,,0,0,0,,Kita bisa menemukan cara\Nmengembalikan Jurik menjadi manusia.
+Dialogue: 0,0:09:53.34,0:09:56.92,Default,,0,0,0,,Kalau begitu, aku hanya perlu\Nmengerahkan segala yang kubisa!
+Dialogue: 0,0:09:57.83,0:10:01.05,Default,,0,0,0,,Demi Mbak, dan juga Kyouka...
+Dialogue: 0,0:10:01.59,0:10:05.10,Default,,0,0,0,,Kyouka, izinkan aku merawatmu dengan penuh!
+Dialogue: 0,0:10:07.47,0:10:09.90,Default,,0,0,0,,Semangat yang bagus, Yuuki!
+Dialogue: 0,0:10:11.58,0:10:14.82,Default,,0,0,0,,Begitu, ya.\NYuuki lancar melakukan tugasnya.
+Dialogue: 0,0:10:14.82,0:10:15.73,Default,,0,0,0,,Iya.
+Dialogue: 0,0:10:15.73,0:10:18.57,Default,,0,0,0,,Dia menjalankan tugasnya\Nsebagai pembantu dengan baik.
+Dialogue: 0,0:10:18.57,0:10:22.91,Default,,0,0,0,,Di sisi pertempuran, dia juga makin kuat\Ndari pertama kami bertemu.
+Dialogue: 0,0:10:22.91,0:10:24.57,Default,,0,0,0,,Jajanan!
+Dialogue: 0,0:10:24.90,0:10:26.20,Default,,0,0,0,,Ayo, bilang terima kasih.
+Dialogue: 0,0:10:26.20,0:10:27.54,Default,,0,0,0,,- Terima kasih!\N- Terima kasih!
+Dialogue: 0,0:10:28.50,0:10:31.41,Default,,0,0,0,,Pria yang berjuang\Nsekuat tenaga memang keren, ya.
+Dialogue: 0,0:10:33.00,0:10:35.92,Default Above,,0,0,0,,Adikku sudah keren sejak dulu!
+Dialogue: 0,0:10:35.92,0:10:38.16,Default,,0,0,0,,Aku juga berterima kasih padamu.
+Dialogue: 0,0:10:38.76,0:10:43.26,Default,,0,0,0,,Pasti banyak kesulitannya bagimu sebagai\NKorps Defensi Iblis untuk menampung kami.
+Dialogue: 0,0:10:43.26,0:10:45.64,Default,,0,0,0,,Tidak perlu berterima kasih.
+Dialogue: 0,0:10:45.64,0:10:47.66,Default,,0,0,0,,Aku akan tetap berterima kasih.
+Dialogue: 0,0:10:48.01,0:10:50.64,Default,,0,0,0,,Ah, Mbak...
+Dialogue: 0,0:10:50.64,0:10:53.40,Default,,0,0,0,,Ini soal kita yang akan jadi\Nsatu keluarga di masa depan.
+Dialogue: 0,0:10:56.65,0:10:58.69,Default,,0,0,0,,Aku harus segera kembali.
+Dialogue: 0,0:10:58.69,0:11:00.57,Default,,0,0,0,,Harus bersiap untuk rapat.
+Dialogue: 0,0:11:00.57,0:11:01.65,Default,,0,0,0,,Rapat?
+Dialogue: 0,0:11:01.65,0:11:05.03,Default,,0,0,0,,Iya, akan digelar rapat para ketua.
+Dialogue: 0,0:11:05.03,0:11:06.87,Default,,0,0,0,,Topiknya menyangkut Dewa.
+Dialogue: 0,0:11:06.87,0:11:08.41,Default,,0,0,0,,Dewa?
+Dialogue: 0,0:11:08.41,0:11:11.20,Default,,0,0,0,,Penjahat yang menculik Naon dan Coco, ya?
+Dialogue: 0,0:11:11.48,0:11:16.67,Default,,0,0,0,,Entah apa alasannya,\NYuuki juga diundang oleh Komandan.
+Dialogue: 0,0:11:16.67,0:11:17.49,Default,,0,0,0,,Eh?
+Dialogue: 0,0:11:19.42,0:11:21.42,Default,,0,0,0,,Ini markas Skuad Sepuluh?
+Dialogue: 0,0:11:21.42,0:11:23.80,Default,,0,0,0,,Juga markas pusat Korps Defensi Iblis.
+Dialogue: 0,0:11:24.26,0:11:26.39,Default,,0,0,0,,Kenapa Komandan mengundangku?
+Dialogue: 0,0:11:26.39,0:11:27.56,Default,,0,0,0,,Tidak tahu.
+Dialogue: 0,0:11:28.14,0:11:30.40,Default,,0,0,0,,Tapi, akan kuperingati satu hal.
+Dialogue: 0,0:11:31.43,0:11:34.35,Default,,0,0,0,,Jangan bertatap mata\Ndengan Komandan Yamashiro.
+Dialogue: 0,0:11:34.35,0:11:36.90,Default,,0,0,0,,Apa itu berhubungan dengan kekuatannya?
+Dialogue: 0,0:11:36.90,0:11:39.82,Default,,0,0,0,,Bukan begitu, bisa repot\Nkalau dia sampai menyukaimu.
+Dialogue: 0,0:11:42.53,0:11:44.65,Default,,0,0,0,,Yo, Kyouka.
+Dialogue: 0,0:11:44.65,0:11:45.91,Default,,0,0,0,,Lelet banget.
+Dialogue: 0,0:11:45.91,0:11:47.42,Default Above,,0,0,0,,Mira.
+Dialogue: 0,0:11:48.03,0:11:51.37,Default,,0,0,0,,Kudengar kamu sudah membalaskan\Ndendam kampung halamanmu?
+Dialogue: 0,0:11:51.37,0:11:52.91,Default,,0,0,0,,Selamat!
+Dialogue: 0,0:11:52.91,0:11:54.66,Default,,0,0,0,,Tapi, jangan lupa.
+Dialogue: 0,0:11:54.66,0:11:57.42,Default,,0,0,0,,Aku yang jauh lebih kuat.
+Dialogue: 0,0:11:57.42,0:11:59.92,Default,,0,0,0,,Aku yang akan jadi komandan berikutnya!
+Dialogue: 0,0:11:59.92,0:12:03.30,Default,,0,0,0,,Itu salah!\NAkulah komandan berikutnya!
+Dialogue: 0,0:12:06.68,0:12:09.05,Default,,0,0,0,,Hei, cowok kacung yang jadi buah bibir.
+Dialogue: 0,0:12:09.05,0:12:11.56,Default,,0,0,0,,Kamu bisa mati, lo.
+Dialogue: 0,0:12:12.81,0:12:15.56,Default,,0,0,0,,Tali sepatumu lepas, tuh!
+Dialogue: 0,0:12:16.19,0:12:19.44,Default,,0,0,0,,Kecerobohan kecil di Kota Iblis\Nitu bahaya minta mampus.
+Dialogue: 0,0:12:21.86,0:12:22.78,Default,,0,0,0,,Lihat yang benar!
+Dialogue: 0,0:12:22.78,0:12:24.40,Default,,0,0,0,,Te-Terima kasih banyak!
+Dialogue: 0,0:12:24.40,0:12:25.42,Default,,0,0,0,,Iya!
+Dialogue: 0,0:12:26.87,0:12:28.48,Default,,0,0,0,,Aku duluan.
+Dialogue: 0,0:12:29.12,0:12:31.83,Default,,0,0,0,,Tidak ada yang teledor lagi, kan?
+Dialogue: 0,0:12:31.83,0:12:33.83,Default,,0,0,0,,Dia sampai repot-repot menunggu kita?
+Dialogue: 0,0:12:37.79,0:12:39.08,Default,,0,0,0,,Bell.
+Dialogue: 0,0:12:40.59,0:12:42.84,Default Above,,0,0,0,,Ke-Ketua Uzen...
+Dialogue: 0,0:12:42.84,0:12:44.84,Default,,0,0,0,,Tidak masuk ke ruang rapat?
+Dialogue: 0,0:12:45.67,0:12:47.59,Default,,0,0,0,,So-Soalnya...
+Dialogue: 0,0:12:47.59,0:12:55.18,Default Above,,0,0,0,,Skuad Tiga Bell belum punya prestasi\Nkarena selalu dihajar musuh!
+Dialogue: 0,0:12:55.18,0:12:58.81,Default Above,,0,0,0,,Pasti jadi bulan-bulanan Komandan di rapat nanti!
+Dialogue: 0,0:12:58.81,0:13:00.52,Default,,0,0,0,,Perutku rasanya sakit sekali!
+Dialogue: 0,0:13:01.15,0:13:03.82,Default,,0,0,0,,Bukankah Canopus milikmu\Nitu kekuatan yang hebat.
+Dialogue: 0,0:13:03.82,0:13:05.24,Default,,0,0,0,,Berbangga dirilah.
+Dialogue: 0,0:13:06.24,0:13:08.74,Default,,0,0,0,,Ternyata ada ketua seperti ini juga.
+Dialogue: 0,0:13:11.87,0:13:13.03,Default,,0,0,0,,Yo.
+Dialogue: 0,0:13:13.83,0:13:14.70,Default,,0,0,0,,Halo!
+Dialogue: 0,0:13:14.70,0:13:16.04,Default,,0,0,0,,Yahoo!
+Dialogue: 0,0:13:19.96,0:13:22.74,Default,,0,0,0,,Jadi mereka para ketua Korps Defensi Iblis?
+Dialogue: 0,0:13:23.70,0:13:24.63,Default,,0,0,0,,Dia datang.
+Dialogue: 0,0:13:29.38,0:13:30.89,Default,,0,0,0,,Komandan,
+Dialogue: 0,0:13:31.51,0:13:32.68,Default,,0,0,0,,Yamashiro Ren.
+Dialogue: 0,0:13:35.27,0:13:38.44,Default,,0,0,0,,Aku disuruh jangan menatap matanya,
+Dialogue: 0,0:13:38.44,0:13:40.35,Default,,0,0,0,,tapi kalau cuma mengintip sedikit...
+Dialogue: 0,0:13:46.99,0:13:49.40,Default,,0,0,0,,Semuanya, senang bisa bertemu kalian.
+Dialogue: 0,0:13:49.40,0:13:50.49,Default,,0,0,0,,Sekarang.
+Dialogue: 0,0:13:52.45,0:13:54.87,Default,,0,0,0,,Mari mulai rapat para ketua.
+Dialogue: 0,0:14:00.37,0:14:02.92,Default,,0,0,0,,Dimulai dari humas Skuad Satu.
+Dialogue: 0,0:14:03.38,0:14:05.96,Default,,0,0,0,,Pengumuman pewarisan jabatan.
+Dialogue: 0,0:14:05.96,0:14:08.55,Default,,0,0,0,,Aku mundur dari posisi ketua.
+Dialogue: 0,0:14:08.55,0:14:11.55,Default,,0,0,0,,Riu, kamu masih kuat menari.
+Dialogue: 0,0:14:11.55,0:14:13.26,Default,,0,0,0,,Kerja Korps Defensi Iblis itu berat.
+Dialogue: 0,0:14:13.26,0:14:16.68,Default,,0,0,0,,Lebih baik anak muda saja yang jadi ketua.
+Dialogue: 0,0:14:17.60,0:14:20.02,Default,,0,0,0,,Beri salam lagi ke semuanya.
+Dialogue: 0,0:14:20.77,0:14:21.64,Default,,0,0,0,,Siap!
+Dialogue: 0,0:14:21.64,0:14:22.90,Default,,0,0,0,,Aku Tatara Konomi!
+Dialogue: 0,0:14:22.90,0:14:26.40,Default,,0,0,0,,Aku masih SMA dan lemah,\Ntapi aku akan berjuang sekuat tenaga!
+Dialogue: 0,0:14:26.40,0:14:28.15,Default,,0,0,0,,Mohon bimbingannya!
+Dialogue: 0,0:14:28.15,0:14:29.61,Default,,0,0,0,,Murid SMA?
+Dialogue: 0,0:14:29.61,0:14:33.07,Default,,0,0,0,,Konomi adalah murid kesayanganku\Nyang sudah kulatih tanpa henti.
+Dialogue: 0,0:14:33.07,0:14:36.20,Default,,0,0,0,,Dia punya bakat untuk jadi komandan\Ndalam beberapa tahun!
+Dialogue: 0,0:14:36.20,0:14:37.58,Default,,0,0,0,,Aku yakin itu!
+Dialogue: 0,0:14:37.58,0:14:40.46,Default,,0,0,0,,Sebagai senior seperguruan,\Naku jadi tidak bisa bersantai saja.
+Dialogue: 0,0:14:40.46,0:14:43.29,Default,,0,0,0,,Tapi, aku yang akan selamanya\Njadi komandan.
+Dialogue: 0,0:14:43.29,0:14:46.29,Default,,0,0,0,,Enggak! Aku yang akan jadi\Nkomandan berikutnya!
+Dialogue: 0,0:14:46.29,0:14:50.51,Default,,0,0,0,,Ada juga opsi Yakumo ini\Nyang memimpin kalian semua, lo.
+Dialogue: 0,0:14:50.51,0:14:54.55,Default,,0,0,0,,Kenapa Komandan Yamashiro\Njuga mengundang Yuuki?
+Dialogue: 0,0:14:54.55,0:14:56.81,Default,,0,0,0,,Akulah yang akan jadi komandan!
+Dialogue: 0,0:14:56.81,0:14:59.68,Default,,0,0,0,,Selanjutnya, keluarga Azuma\Nyang akan menjabat.
+Dialogue: 0,0:15:03.35,0:15:06.27,Default,,0,0,0,,Kalian semua penuh semangat, ya.\NSangat bisa diandalkan.
+Dialogue: 0,0:15:06.27,0:15:07.98,Default,,0,0,0,,Suasana hatinya kelihatan baik.
+Dialogue: 0,0:15:07.98,0:15:10.53,Default,,0,0,0,,Semoga tetap begini\Ndan tidak terjadi apa-apa.
+Dialogue: 0,0:15:10.53,0:15:13.78,Default,,0,0,0,,Kedengarannya lembut, tapi seram sekali!
+Dialogue: 0,0:15:13.78,0:15:15.57,Default,,0,0,0,,Sekarang, ke bahasan utama.
+Dialogue: 0,0:15:17.24,0:15:20.45,Default,,0,0,0,,Soal musuh yang menyebut diri mereka\NDelapan Dewa Petir.
+Dialogue: 0,0:15:21.20,0:15:24.58,Default,,0,0,0,,Meskipun imut, mereka entitas\Nyang melenyapkan manusia.
+Dialogue: 0,0:15:24.58,0:15:28.92,Default,,0,0,0,,Yang berambut hitam ini sudah\Nmembuat Skuad Tiga babak belur.
+Dialogue: 0,0:15:28.92,0:15:32.55,Default,,0,0,0,,Yang berbadan besar satu ini membuat\NSkuad Enam dan Tujuh ke rumah sakit.
+Dialogue: 0,0:15:33.26,0:15:36.93,Default,,0,0,0,,Tapi yang satu ini dihabisi\Nseorang diri oleh Tenka.
+Dialogue: 0,0:15:37.55,0:15:40.43,Default,,0,0,0,,Belum bisa dibilang dengan pasti\Nkalau dia sudah mati.
+Dialogue: 0,0:15:40.85,0:15:45.65,Default,,0,0,0,,Yang terpenting adalah ketua skuad harus bisa\Nmembunuh meski itu Dewa sekalipun.
+Dialogue: 0,0:15:45.65,0:15:48.73,Default,,0,0,0,,Kalau Delapan Dewa Petir muncul,\Nketua skuad yang harus menghadapi.
+Dialogue: 0,0:15:48.73,0:15:50.32,Default,,0,0,0,,Ini tanpa terkecuali.
+Dialogue: 0,0:15:51.11,0:15:53.86,Default,,0,0,0,,Dimengerti!\NBiar kukalahkan mereka!
+Dialogue: 0,0:15:53.86,0:15:55.24,Default,,0,0,0,,Teruskan seperti itu.
+Dialogue: 0,0:15:55.24,0:15:57.99,Default,,0,0,0,,Tapi, ada Skuad yang mengkhawatirkan, ya.
+Dialogue: 0,0:15:59.16,0:16:03.50,Default,,0,0,0,,Bell, Skuad Tiga yang menyedihkan\Nitu tanggung jawab ketuanya.
+Dialogue: 0,0:16:03.50,0:16:05.29,Default,,0,0,0,,Mo-Mohon maaf!
+Dialogue: 0,0:16:05.29,0:16:09.00,Default,,0,0,0,,Makanya, setelah ini aku akan\Nmemberimu latihan khusus.
+Dialogue: 0,0:16:09.00,0:16:09.86,Default,,0,0,0,,Eh?
+Dialogue: 0,0:16:09.86,0:16:11.05,Default,,0,0,0,,Tenang saja.
+Dialogue: 0,0:16:11.05,0:16:16.63,Default,,0,0,0,,Selama di dalam Penghalang Ginna,\Nluka separah apa pun pasti bisa sembuh.
+Dialogue: 0,0:16:16.63,0:16:18.51,Default,,0,0,0,,Satu topik tambahan.
+Dialogue: 0,0:16:18.51,0:16:21.22,Default,,0,0,0,,Ketika musuh datang,\Nhanya melawan balik itu terlalu lembek.
+Dialogue: 0,0:16:21.22,0:16:23.73,Default,,0,0,0,,Sebaiknya memikirkan strategi penyerangan
+Dialogue: 0,0:16:23.73,0:16:26.23,Default,,0,0,0,,untuk membasmi Delapan Dewa Petir dan Jurik!
+Dialogue: 0,0:16:26.23,0:16:29.15,Default,,0,0,0,,Banyak yang belum diketahui dari Kota Iblis.
+Dialogue: 0,0:16:29.55,0:16:34.53,Default,,0,0,0,,Strategi menyerang balik\Nketika musuh datang itu lebih pasti.
+Dialogue: 0,0:16:34.53,0:16:39.32,Default,,0,0,0,,Jumlah Bencana Kota Iblis menurun drastis\Nsejak aku jadi komandan.
+Dialogue: 0,0:16:39.32,0:16:41.87,Default,,0,0,0,,Bukti kalau metodeku itu benar.
+Dialogue: 0,0:16:42.29,0:16:44.87,Default,,0,0,0,,Sudah kuduga,\Nkebijakannya tidak akan berubah.
+Dialogue: 0,0:16:44.87,0:16:46.37,Default,,0,0,0,,Itu saja yang ingin disampaikan?
+Dialogue: 0,0:16:46.37,0:16:47.46,Default,,0,0,0,,Iya.
+Dialogue: 0,0:16:48.71,0:16:51.88,Default,,0,0,0,,Aku paham, jangan menyinggung\Nsoal Instansi Yin-Yang.
+Dialogue: 0,0:16:52.24,0:16:54.80,Default,,0,0,0,,Nanti bisa diwaspadai Komandan.
+Dialogue: 0,0:16:54.80,0:16:57.72,Default,,0,0,0,,Selanjutnya, soal pria yang di sana.
+Dialogue: 0,0:16:58.30,0:17:01.22,Default,,0,0,0,,Dia sosok yang diperlukan\Nuntuk kekuatan Kyouka.
+Dialogue: 0,0:17:01.22,0:17:03.06,Default,,0,0,0,,Anggap saja seperti peralatan.
+Dialogue: 0,0:17:03.06,0:17:04.56,Default,,0,0,0,,Aku Wakura Yuuki!
+Dialogue: 0,0:17:04.56,0:17:07.98,Default,,0,0,0,,Umumnya bertugas sebagai\Npembantu di Skuad Tujuh!
+Dialogue: 0,0:17:11.56,0:17:13.19,Default,,0,0,0,,Anak yang manis.
+Dialogue: 0,0:17:13.19,0:17:16.15,Default,,0,0,0,,Aku juga ingin punya satu anak laki-laki.
+Dialogue: 0,0:17:16.15,0:17:16.90,Default,,0,0,0,,Eh?
+Dialogue: 0,0:17:17.29,0:17:20.41,Default,,0,0,0,,Fubuki adalah ibunda dari Yachiho dan Himari.
+Dialogue: 0,0:17:20.87,0:17:21.91,Default,,0,0,0,,Muda sekali!
+Dialogue: 0,0:17:22.70,0:17:25.33,Default,,0,0,0,,Nona Ren, semuanya!\NIni kondisi darurat!
+Dialogue: 0,0:17:25.33,0:17:27.16,Default,,0,0,0,,Ada apa, Ginna?
+Dialogue: 0,0:17:27.16,0:17:32.13,Default,,0,0,0,,Gerombolan besar Jurik sedang menuju\Nmarkas Pusat Korps Defensi Iblis!
+Dialogue: 0,0:17:32.13,0:17:34.38,Default,,0,0,0,,Ju-Jumlahnya banyak sekali!
+Dialogue: 0,0:17:35.30,0:17:37.67,Default,,0,0,0,,Tenangkan dirimu, Bell.
+Dialogue: 0,0:17:37.67,0:17:39.30,Default,,0,0,0,,Eh, Yakumo?
+Dialogue: 0,0:17:39.80,0:17:44.76,Default,,0,0,0,,Semua ketua sedang kumpul di sini,\Nenggak ada yang perlu ditakutkan.
+Dialogue: 0,0:17:48.35,0:17:51.02,Default,,0,0,0,,Datang gerombolan besar musuh\Nsaat rapat ketua.
+Dialogue: 0,0:17:51.02,0:17:52.36,Default,,0,0,0,,Ini mencurigakan.
+Dialogue: 0,0:17:52.98,0:17:56.15,Default,,0,0,0,,Konomi, Mira, lalu Yakumo dan Fubuki\Nbertugas mencegat.
+Dialogue: 0,0:17:56.15,0:17:58.07,Default,,0,0,0,,Sisanya awasi pergerakan musuh.
+Dialogue: 0,0:17:58.07,0:17:59.45,Default,,0,0,0,,- Dimengerti!\N- Dimengerti!
+Dialogue: 0,0:18:00.03,0:18:02.95,Default,,0,0,0,,Siapa musuhnya atau apa pun rencananya,
+Dialogue: 0,0:18:02.95,0:18:07.00,Default,,0,0,0,,tak akan kubiarkan menyerang\Nmarkas Korps Defensi Iblis-ku.
+Dialogue: 0,0:18:07.00,0:18:10.70,Default,,0,0,0,,Aku sendiri yang akan menghukum\Npemimpin musuh.
+Dialogue: 0,0:18:11.50,0:18:12.29,Default,,0,0,0,,Yuuki!
+Dialogue: 0,0:18:12.29,0:18:13.29,Default,,0,0,0,,Baik!
+Dialogue: 0,0:18:16.96,0:18:20.09,Default,,0,0,0,,Komandan, izinkan aku ikut maju!
+Dialogue: 0,0:18:20.09,0:18:21.59,Default,,0,0,0,,Bertahan tidak cocok untukku.
+Dialogue: 0,0:18:22.30,0:18:23.34,Default,,0,0,0,,Izin melapor!
+Dialogue: 0,0:18:23.76,0:18:25.97,Default,,0,0,0,,Musuh adalah gerombolan Jurik biasa!
+Dialogue: 0,0:18:26.32,0:18:28.85,Default,,0,0,0,,Akan datang lagi.\NHarus waspada.
+Dialogue: 0,0:18:28.85,0:18:33.31,Default,,0,0,0,,Tapi, saat aku mengalahkan beberapa Jurik,\Nmereka meledak hebat.
+Dialogue: 0,0:18:33.31,0:18:37.78,Default,,0,0,0,,Kelihatannya ada trik yang memberi\Nmereka kekuatan seperti itu.
+Dialogue: 0,0:18:37.78,0:18:40.61,Default,,0,0,0,,Sudah beres selagi aku berubah!
+Dialogue: 0,0:18:40.61,0:18:43.03,Default,,0,0,0,,Ada lima sosok manusia\Nterpisah dari gerombolan Jurik!
+Dialogue: 0,0:18:43.03,0:18:44.37,Default,,0,0,0,,Jaraknya empat kilometer!
+Dialogue: 0,0:18:44.37,0:18:46.20,Default,,0,0,0,,Jadi mereka dalangnya.
+Dialogue: 0,0:18:46.83,0:18:48.33,Default,,0,0,0,,Biar aku yang urus.
+Dialogue: 0,0:18:48.33,0:18:49.87,Default,,0,0,0,,Kyouka ikutlah denganku.
+Dialogue: 0,0:18:49.87,0:18:51.50,Default,,0,0,0,,Tenka dan yang lain tetap di sini.
+Dialogue: 0,0:18:51.50,0:18:52.17,Default,,0,0,0,,- Baik!\N- Baik!
+Dialogue: 0,0:18:59.59,0:19:02.05,Default,,0,0,0,,Oke, ini dia gelombang Jurik yang kedua!
+Dialogue: 0,0:19:02.05,0:19:05.47,Default,,0,0,0,,Kali ini, kendalikan biar bisa sampai\Nke markas pusat Korps Defensi Iblis.
+Dialogue: 0,0:19:05.47,0:19:07.85,Default,,0,0,0,,Nanti kekuatan bomku akan sia-sia.
+Dialogue: 0,0:19:11.31,0:19:13.90,Default,,0,0,0,,Kalian teroris dari suatu negara, ya?
+Dialogue: 0,0:19:14.31,0:19:16.18,Default,,0,0,0,,Apa kalian mengincar Persik?
+Dialogue: 0,0:19:16.56,0:19:18.15,Default,,0,0,0,,Yamashiro Ren!
+Dialogue: 0,0:19:18.15,0:19:19.44,Default,,0,0,0,,Ingin menyerang balik!
+Dialogue: 0,0:19:19.44,0:19:20.78,Default,,0,0,0,,Jadilah batu!
+Dialogue: 0,0:19:23.65,0:19:27.28,Default,,0,0,0,,Mau meledakkan tempat\Npara ketua berkumpul dengan bom, ya?
+Dialogue: 0,0:19:27.70,0:19:28.49,Default,,0,0,0,,Enggak mempan?
+Dialogue: 0,0:19:30.12,0:19:31.37,Default,,0,0,0,,Terbakarlah!
+Dialogue: 0,0:19:34.29,0:19:36.92,Default,,0,0,0,,Apa itu kekuatan yang berkaitan\Ndengan ucapan?
+Dialogue: 0,0:19:37.34,0:19:40.17,Default,,0,0,0,,Korps Defensi Iblis juga bertugas melindungi
+Dialogue: 0,0:19:40.17,0:19:42.38,Default,,0,0,0,,sumber daya Kota Iblis\Ndari orang seperti kalian.
+Dialogue: 0,0:19:42.38,0:19:43.47,Default,,0,0,0,,Sialan!
+Dialogue: 0,0:19:44.34,0:19:48.43,Default,,0,0,0,,Majulah, manusia rekayasaku!\NUmat manusia yang terkuat!
+Dialogue: 0,0:19:52.35,0:19:53.56,Default,,0,0,0,,Sial!
+Dialogue: 0,0:19:57.36,0:19:59.65,Default,,0,0,0,,Kalau begini, sekalian saja semuanya!
+Dialogue: 0,0:19:59.65,0:20:01.65,Default,,0,0,0,,Kekuatan bom, ya?
+Dialogue: 0,0:20:01.65,0:20:03.57,Default,,0,0,0,,Bom bunuh diri skala lebar itu merepotkan.
+Dialogue: 0,0:20:05.36,0:20:06.61,Default,,0,0,0,,Enggak meledak?
+Dialogue: 0,0:20:06.61,0:20:11.87,Default,,0,0,0,,Waktu kecil, aku berdebar\Nsaat melihat peta daerah terpencil.
+Dialogue: 0,0:20:11.87,0:20:16.37,Default,,0,0,0,,Istilah "Kutub Terpencil",\Nterkesan ada romansanya, kan?
+Dialogue: 0,0:20:16.37,0:20:19.00,Default,,0,0,0,,Mungkin ada sesuatu di sana.
+Dialogue: 0,0:20:19.71,0:20:21.25,Default,,0,0,0,,Apa kamu mau melihatnya?
+Dialogue: 0,0:20:21.25,0:20:23.51,Default,,0,0,0,,Dasar laut lepas.
+Dialogue: 0,0:20:28.68,0:20:30.22,Default,,0,0,0,,Kamu lama sekali.
+Dialogue: 0,0:20:31.39,0:20:33.14,Default,,0,0,0,,Apa yang terjadi?
+Dialogue: 0,0:20:33.98,0:20:35.77,Default,,0,0,0,,Masih hebat seperti biasa.
+Dialogue: 0,0:20:36.27,0:20:38.10,Default,,0,0,0,,Kekuatan Komandan.
+Dialogue: 0,0:20:40.02,0:20:43.78,Default,,0,0,0,,Kesatuan alam semesta tak terhingga\Nyang meliputi segalanya.
+Dialogue: 0,0:20:43.78,0:20:46.36,Default,,0,0,0,,Alam semesta tak terhingga\Nmeliputi segalanya.
+Dialogue: 0,0:20:46.94,0:20:50.12,Default,,0,0,0,,Kyouka, lepaskan bentuk Slave-nya.
+Dialogue: 0,0:20:59.54,0:21:04.63,Default,,0,0,0,,Pria yang meningkatkan\Nkekuatan Kyouka dan disukai Tenka.
+Dialogue: 0,0:21:06.67,0:21:08.89,Default,,0,0,0,,Rasanya aku jadi penasaran.
+Dialogue: 0,0:21:09.64,0:21:13.60,Default,,0,0,0,,Kalau menyuruh Slave bekerja,\Nkamu harus memberinya imbalan, kan?
+Dialogue: 0,0:21:13.60,0:21:15.09,Default,,0,0,0,,Imbalannya seperti apa?
+Dialogue: 0,0:21:23.40,0:21:24.48,Default,,0,0,0,,Cuma begitu?
+Dialogue: 0,0:21:24.48,0:21:27.61,Default,,0,0,0,,Kali ini cuma bergegas mengantar ke lokasi.
+Dialogue: 0,0:21:28.64,0:21:30.36,Default,,0,0,0,,Ternyata cukup begitu.
+Dialogue: 0,0:21:30.95,0:21:32.45,Default,,0,0,0,,Kamu imut, ya.
+Dialogue: 0,0:21:33.83,0:21:34.58,Default,,0,0,0,,Tangan.
+Dialogue: 0,0:21:34.58,0:21:35.24,Default,,0,0,0,,Eh?
+Dialogue: 0,0:21:38.92,0:21:42.42,Default,,0,0,0,,Padahal penampilan orang ini jauh berbeda,
+Dialogue: 0,0:21:43.17,0:21:45.13,Default,,0,0,0,,tapi mengingatkanku pada Mbak.
+Dialogue: 0,0:21:48.63,0:21:53.53,Default,,0,0,0,,Inilah Komandan yang memimpin\NKorps Defensi Iblis, Yamashiro Ren!
+Dialogue: 0,0:23:25.73,0:23:29.07,Default,,0,0,0,,Selanjutnya, episode dua, Bayangan Ren!
+Dialogue: 0,0:23:29.07,0:23:31.28,Default,,0,0,0,,Bonus episode ini, jreng!
+Dialogue: 0,0:23:31.28,0:23:33.32,Default,,0,0,0,,Cabul sekali, Ketua!
+Dialogue: 0,0:23:33.32,0:23:36.12,Default,,0,0,0,,Ternyata pakai dalaman model imut.\NDi luar dugaan!
+Dialogue: 0,0:23:36.12,0:23:37.45,Default,,0,0,0,,Memangnya salah?
+Dialogue: 0,0:23:37.45,0:23:38.95,Default,,0,0,0,,Ke-Ketua!
