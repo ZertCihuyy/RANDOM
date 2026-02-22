@@ -1,0 +1,13 @@
+GET https://webchat.adynda.shop/api/auth/csrf
+
+{"csrfToken":"3a2be0c8877b98534ca4b75de3136219bde5a055d0247d527cb7953a466e2895"}
+
+GET https://webchat.adynda.shop/api/messages
+
+[{"user":"renako amori","role":"user","message":"&#x2F;iseng wog"},{"user":"renako amori","role":"user","message":"&#x2F;get"},{"user":"renako amori","role":"user","message":"pagi"},{"user":"renako amori","role":"user","message":"a"},{"user":"renako amori","role":"user","message":"A"},{"user":"Achmady Ludya","role":"admin","message":"pler"},{"user":"NOI SI KUCING IMUT KUCING JANTAN PENGURAS MANI","role":"user","message":"Gak"},{"user":"Achmady Ludya","role":"admin","message":"mo tes moderator"},{"user":"Achmady Ludya","role":"admin","message":"pake satu aja jir"},{"user":"renako amori","role":"user","message":"Aduh"},{"user":"Achmady Ludya","role":"admin","message":"aku lupa ada excape buat anti inject nya"},{"user":"Achmady Ludya","role":"admin","message":"owww diubah jadi string"},{"user":"Achmady Ludya","role":"admin","message":"&lt;&gt;"},{"user":"Achmady Ludya","role":"admin","message":"ko gitu"},{"user":"Achmady Ludya","role":"admin","message":"lahhhhhhhhhhhhhhhh"},{"user":"Achmady Ludya","role":"admin","message":"&#x2F;ban"},{"user":"Achmady Ludya","role":"admin","message":"username mu jirrrr"},{"user":"NOI SI KUCING IMUT KUCING JANTAN PENGURAS MANI","role":"user","message":"Tidak ramah bagi hp soalnya ui"},{"user":"NOI SI KUCING IMUT KUCING JANTAN PENGURAS MANI","role":"user","message":"Admin"},{"user":"NOI SI KUCING IMUT KUCING JANTAN PENGURAS MANI","role":"user","message":"Wtf"}]
+
+GET https://webchat.adynda.shop/api/auth/session/socket.io?EIO=4&transport=websocket
+
+{"user":{"name":"renako amori","email":"@gnail.com","image":"url_pp"},"expires":"2026-03-24T22:47:44.149Z"}
+
+{"google":{"id":"google","name":"Google","type":"oauth","signinUrl":"https://webchat.adynda.shop/api/auth/signin/google","callbackUrl":"https://webchat.adynda.shop/api/auth/callback/google"}}
